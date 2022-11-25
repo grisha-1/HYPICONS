@@ -24,6 +24,10 @@ button.purple{
     padding: 15px 42px 15px 42px;
 }
 
+.invisible{
+    display: none;
+}
+
 .invisible-60{
     color: rgba(255, 255, 255, 0.6);
 }
@@ -37,6 +41,23 @@ button.purple{
     position: fixed;
     width: 100vw;
     padding-top: 27px;
+}
+
+#list-small-navbar div.row{
+    margin-top: 25px;
+}
+
+.small-navbar{
+    display: none;
+}
+
+@media(max-width: 991px){
+    .big-navbar{
+        display: none;
+    }
+    .small-navbar{
+        display: block;
+    }
 }
 
 /* Главный блок */
